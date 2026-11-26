@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hyojun Yun</title>
+  <meta name="author" content="Hyojun Yun">
+  <meta name="description" content="Hyojun Yun — robot manipulation, visual and tactile perception, vision-language-action models, and NPU acceleration at Sungkyunkwan University.">
+  <link rel="canonical" href="https://pionmenson.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hyojun Yun">
+  <meta property="og:description" content="Robot manipulation, visual and tactile perception, VLA models, and NPU acceleration.">
+  <meta property="og:url" content="https://pionmenson.github.io/">
+  <meta property="og:image" content="https://pionmenson.github.io/assets/profile.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <main id="main" class="page">
+    <header class="profile" id="about">
+      <div class="bio">
+        <h1>Hyojun Yun</h1>
+        <p>I am an M.S. student in Mechanical Engineering at <a href="https://www.skku.edu/eng/">Sungkyunkwan University</a>, working in the <a href="https://rise.skku.edu/">RISE Lab</a> with <a href="https://scholar.google.com/citations?user=kBU7Os0AAAAJ">Prof. Hyungpil Moon</a>.</p>
+        <p>My research focuses on robot manipulation, visual and tactile perception, and vision-language-action (VLA) models. I also work on deploying robot perception models and offloading frozen visual encoders to low-power neural processing units (NPUs).</p>
+        <nav class="contact-links" aria-label="Contact and resources">
+          <a href="mailto:yhj0971@gmail.com">Email</a>
+          <a href="https://github.com/PIONMENSON">GitHub</a>
+          <a href="#publications">Publications</a>
+          <a href="https://textbook-hub.vercel.app/">Learning Notes</a>
+        </nav>
+      </div>
+      <img class="portrait" src="assets/profile.jpg" alt="Hyojun Yun" width="413" height="531" fetchpriority="high">
+    </header>
+
+    <section id="education" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <div class="education-list">
+        <article class="education-entry">
+          <div><h3>Sungkyunkwan University</h3><p>M.S. student, Mechanical Engineering</p><p class="secondary">RISE Lab · Advisor: Prof. Hyungpil Moon</p></div>
+          <p class="date">Mar. 2025 – Present</p>
+        </article>
+        <article class="education-entry">
+          <div><h3>Korea Aerospace University</h3><p>B.S., Mechanical Engineering</p></div>
+          <p class="date">Mar. 2018 – Feb. 2022</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" aria-labelledby="publications-title">
+      <h2 id="publications-title">Publications</h2>
+      <article class="paper">
+        <a class="paper-image" href="https://arxiv.org/abs/2608.15002" aria-label="Read NPU Offloading of a Frozen Visual Encoder for Robot Policy Training"><img src="assets/npu-offloading.png" alt="Comparison of energy per training sample for GPU-only and NPU offloading conditions" width="160" height="110" loading="lazy"></a>
+        <div class="paper-content">
+          <h3><a href="https://arxiv.org/abs/2608.15002">NPU Offloading of a Frozen Visual Encoder for Robot Policy Training</a></h3>
+          <p class="authors"><strong>Hyojun Yun</strong>, Seungjae Won, Hyungpil Moon</p>
+          <p class="venue"><em>arXiv</em>, 2026</p>
+          <p class="paper-links"><a href="https://arxiv.org/abs/2608.15002">arXiv</a><a href="https://arxiv.org/pdf/2608.15002">Paper</a><a href="https://textbook-hub.vercel.app/npu-offload/">Project page</a></p>
+          <p class="description">An asynchronous GPU–NPU pipeline that offloads a frozen visual encoder during robot policy training, evaluating energy use, training time, and policy performance.</p>
+        </div>
+      </article>
+      <article class="paper">
+        <a class="paper-image" href="https://doi.org/10.23919/ICCAS66577.2025.11301212" aria-label="Read the NPU benchmark paper"><img src="assets/npu-benchmark.png" alt="Overview of PVN3D pose estimation and HGGD grasp detection on a low-power NPU" width="160" height="110" loading="lazy"></a>
+        <div class="paper-content">
+          <h3><a href="https://doi.org/10.23919/ICCAS66577.2025.11301212">Benchmarking 6D Pose Estimation and 6-DoF Grasp Detection on a Low-Power NPU: Case Studies with PVN3D and HGGD</a></h3>
+          <p class="authors">Youngjin Seo*, <strong>Hyojun Yun*</strong>, Hong-ryul Jung, Hyungpil Moon</p>
+          <p class="venue"><em>International Conference on Control, Automation and Systems (ICCAS)</em>, 2025</p>
+          <p class="paper-links"><a href="https://doi.org/10.23919/ICCAS66577.2025.11301212">Paper</a><a href="https://pure.skku.edu/en/publications/benchmarking-6d-pose-estimation-and-6-dof-grasp-detection-on-a-lo/">Publication record</a><span>* Equal contribution</span></p>
+          <p class="description">Adapting pose estimation and grasp detection models to a low-power NPU, with an evaluation of accuracy, power consumption, and quantization calibration.</p>
+        </div>
+      </article>
+      <h3 class="subheading">Workshop and domestic conference papers</h3>
+      <ol class="other-papers">
+        <li><h4>Distance-Based Subtask Segmentation for Scaling VLA Training with Synthetic Demonstrations</h4><p><strong>H. Yun</strong>, H. Moon</p><p class="secondary">ICRA 2026 Workshop</p></li>
+        <li><h4>Accelerating Vision-Language-Action Model Training with NPU</h4><p><strong>H. Yun</strong>, S. Won, H. Jung, Y. Seo, H. Moon</p><p class="secondary">Korea Robotics Society Annual Conference (KRoC), 2026</p></li>
+        <li><h4>Language-Guided Robotic Grasping Pipeline with NPU-Based Grasp Detection</h4><p>S. Won*, <strong>H. Yun*</strong>, H. Jung, Y. Seo, H. Moon</p><p class="secondary">Korea Robotics Society Annual Conference (KRoC), 2026 · * Equal contribution</p></li>
+      </ol>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <article class="paper project">
+        <div class="paper-image"><img class="hand-photo" src="assets/tactile-hand.jpg" alt="A robotic hand with tactile sensing surfaces on its fingers" width="160" height="150" loading="lazy"></div>
+        <div class="paper-content">
+          <h3>Tactile Perception for Robotic Manipulation</h3>
+          <p class="secondary">Master's research · RISE Lab</p>
+          <p class="description">Using tactile signals to estimate object pose and detect slip, with an emphasis on manipulation when visual observations are occluded.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="notes" aria-labelledby="notes-title">
+      <h2 id="notes-title">Learning Notes</h2>
+      <p class="section-intro">I keep study notes and interactive exercises on robotics, control, VLA models, and programming. Most explanations are in Korean.</p>
+      <div class="resource-grid">
+        <a class="resource" href="https://textbook-hub.vercel.app/">
+          <span class="resource-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M16 7v20M16 9c-4-3-8-3-12-1v18c4-2 8-2 12 1 4-3 8-3 12-1V8c-4-2-8-2-12 1Z"/></svg></span>
+          <span><strong>Study Library</strong><span class="resource-description">Browse textbooks and paper notes</span></span>
+        </a>
+        <a class="resource" href="https://textbook-hub.vercel.app/?topic=robot">
+          <span class="resource-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><rect x="5" y="11" width="22" height="16" rx="3"/><path d="M16 5v6M11 22h10M2 17h3M27 17h3"/><circle cx="11" cy="17" r="1"/><circle cx="21" cy="17" r="1"/></svg></span>
+          <span><strong>Robotics &amp; Control</strong><span class="resource-description">Manipulation, control, and reinforcement learning</span></span>
+        </a>
+      </div>
+      <p class="topic-links"><a href="https://textbook-hub.vercel.app/?topic=vla">VLA models</a><a href="https://textbook-hub.vercel.app/?topic=cs">Programming</a><a href="https://textbook-hub.vercel.app/?topic=probot">Robotics papers</a></p>
+    </section>
+    <footer><p>Hyojun Yun · <a href="mailto:yhj0971@gmail.com">Email</a> · <a href="https://github.com/PIONMENSON/PIONMENSON.github.io">Website source</a></p><p class="credit">Layout inspired by <a href="https://gomtaeng2.github.io/">Youngjin Seo</a> and <a href="https://jonbarron.info/">Jon Barron</a>.</p></footer>
+  </main>
+</body>
+</html>
