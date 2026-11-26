@@ -19,7 +19,7 @@ p{margin-bottom:14px}
 .skip-link:focus{top:12px}
 .profile{display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:42px;align-items:center;margin-bottom:48px}
 .bio{min-width:0}
-.portrait{width:190px;height:190px;object-fit:cover;object-position:50% 15%;border-radius:50%}
+.portrait{width:190px;height:190px;object-fit:contain;object-position:center;border-radius:50%}
 .contact-links{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 0;margin-top:22px;font-size:.95rem}
 .contact-links a+a:before{content:'/';color:#aaa;margin:0 12px;display:inline-block;text-decoration:none}
 section{margin-bottom:42px;scroll-margin-top:24px}
