@@ -24,7 +24,7 @@
       <div class="bio">
         <h1>Hyojun Yun</h1>
         <p>I am an M.S. student in Mechanical Engineering at <a href="https://www.skku.edu/eng/">Sungkyunkwan University</a>, working in the <a href="https://rise.skku.edu/">RISE Lab</a> with <a href="https://scholar.google.com/citations?user=kBU7Os0AAAAJ">Prof. Hyungpil Moon</a>.</p>
-        <p>My research focuses on robot manipulation, visual and tactile perception, and vision-language-action (VLA) models. I also work on deploying robot perception models and offloading frozen visual encoders to low-power neural processing units (NPUs).</p>
+        <p>My research focuses on using touch to guide robot manipulation when cameras cannot see the contact area. My master's work, SmolVLA-Touch, combines tactile state estimation with fast action correction. I also work on efficient robot perception and training with neural processing units (NPUs).</p>
         <nav class="contact-links" aria-label="Contact and resources">
           <a href="mailto:yhj0971@gmail.com">Email</a>
           <a href="https://github.com/PIONMENSON">GitHub</a>
@@ -47,6 +47,19 @@
           <p class="date">Mar. 2018 – Feb. 2022</p>
         </article>
       </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Selected Research</h2>
+      <article class="paper project" id="masters-research">
+        <div class="paper-image"><img class="hand-photo" src="assets/tactile-hand.jpg" alt="A robotic hand with tactile sensing surfaces on its fingers" width="160" height="150" loading="lazy"></div>
+        <div class="paper-content">
+          <h3>Tactile Encoders for Vision-Language-Action Models in Occluded Manipulation</h3>
+          <p class="secondary">Master's thesis research · Sungkyunkwan University · Advisor: Prof. Hyungpil Moon</p>
+          <p class="description">SmolVLA-Touch uses fingertip magnetic tactile signals and joint history to estimate in-hand object pose and insertion state. These estimates guide the VLM, while a fast tactile path corrects action chunks as contact changes.</p>
+          <p class="description">Evaluated on a real robot inserting a triangular prism into a socket, with the work area masked in the camera images.</p>
+        </div>
+      </article>
     </section>
 
     <section id="publications" aria-labelledby="publications-title">
@@ -79,17 +92,7 @@
       </ol>
     </section>
 
-    <section id="projects" aria-labelledby="projects-title">
-      <h2 id="projects-title">Projects</h2>
-      <article class="paper project">
-        <div class="paper-image"><img class="hand-photo" src="assets/tactile-hand.jpg" alt="A robotic hand with tactile sensing surfaces on its fingers" width="160" height="150" loading="lazy"></div>
-        <div class="paper-content">
-          <h3>Tactile Perception for Robotic Manipulation</h3>
-          <p class="secondary">Master's research · RISE Lab</p>
-          <p class="description">Using tactile signals to estimate object pose and detect slip, with an emphasis on manipulation when visual observations are occluded.</p>
-        </div>
-      </article>
-    </section>
+
 
     <section id="notes" aria-labelledby="notes-title">
       <h2 id="notes-title">Learning Notes</h2>
